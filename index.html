@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pagination App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <h1 id="title" style="text-align: center;">Pagination</h1><br>
+    <p id="description">Pagination Description</p>
+    <div class="table-responsive">
+        <table id="table" class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                
+            </tbody>
+        </table><br>
+    </div>
+        <div id="buttons"  class="pagination d-flex justify-content-center">
+            <button type="button" id="first" onclick="firstPage()">First</button> 
+            <button type="button" id="previous" onclick="previousPage()">Previous</button> 
+            <button type="button" id="btn-1" onclick="getUserData(1)">1</button> 
+            <button type="button" id="btn-2" onclick="getUserData(2)">2</button> 
+            <button type="button" id="btn-3" onclick="getUserData(3)">3</button> 
+            <button type="button" id="btn-4" onclick="getUserData(4)">4</button> 
+            <button type="button" id="btn-5" onclick="getUserData(5)">5</button> 
+            <button type="button" id="btn-6" onclick="getUserData(6)">6</button> 
+            <button type="button" id="btn-7" onclick="getUserData(7)">7</button> 
+            <button type="button" id="btn-8" onclick="getUserData(8)">8</button> 
+            <button type="button" id="btn-9" onclick="getUserData(9)">9</button> 
+            <button type="button" id="btn-10" onclick="getUserData(10)">10</button> 
+            <button type="button" id="next" onclick="nextPage()">Next</button> 
+            <button type="button" id="last" onclick="lastPage()">Last</button> 
+        </div>
+
+    
+    <script src="./script.js">
+
+    </script>
+ 
+    </body>
+    </html>

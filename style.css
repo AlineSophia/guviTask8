@@ -1,0 +1,21 @@
+.table, tableBody, tr, td, th{
+    border: 2px solid black;
+    width: 30px;
+    font-size: small;
+  }
+
+.pagination {
+    text-align: center;
+    margin: auto;
+            width: 50%;
+  }
+  .pagination button {
+    background-color: white;
+    text-align: center;
+    padding: 8px 10px;
+    color: lightskyblue;
+    border-width: 1px ;
+    
+  }
+
+  .pagination button:hover:not(.active) {background-color: cornflowerblue;}
